@@ -90,8 +90,23 @@ section h3 {
 
 .participants-list li {
   margin: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  list-style: none;
 }
 
+/* Delete participant button */
+.delete-participant {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  margin-left: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  padding: 0;
+}
 .participant-badge {
   display: inline-block;
   background-color: #e8eaf6;
